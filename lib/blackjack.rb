@@ -46,6 +46,7 @@ def hit?(number)
   elsif user_choice == "h"
         new_total = number + deal_card
   else invalid_command
+        prompt_user
   end 
 end 
 
